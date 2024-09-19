@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo 1</title>
-    <!-- chamando o script interno - cabecalho -->
+    <!-- <script src="./script.js" defer></script>
+    defer eh pra ler até o final do arquivo 
+    (mas nao eh uma boa pratica deixar o .js no header) -->
+
+    <!-- chamando o script interno - cabecalho 
     <script>
         alert("ola mundo!!! - cabecalho")
-    </script>
+    </script> -->
 </head>
 <body>
     <!-- chamando script via evento do clique do botao -->
     <button onclick="alert('ola mundo!!! - evento')">clique aqui</button>
 
-    <script>
+    <!-- <script>
         //chamando o script no corpo da pagina
         alert("ola mundo!!! - corpo")
-    </script>
+    </script> -->
+    
+    <script src="./script.js"></script>
 </body>
 </html>
